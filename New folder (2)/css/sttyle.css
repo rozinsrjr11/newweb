@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #202125;
+    color: #ccc;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-image: url('/img/new-abs12.jpg');
+    font-family: 'Balthazar', serif;
+}
+
+/* head css starts */
+.left {
+    /* border: 3px solid transparent; */
+    position: absolute;
+    display: inline-block;
+    top: 7px;
+    left: 24px;
+}
+
+.left img {
+    width: 136px;
+    filter: invert();
+}
+
+.left div {
+    text-align: center;
+    line-height: 15px;
+    font-size: 21px;
+}
+
+.mid {
+    /* border: solid transparent 3px; */
+    width: 57%;
+    display: block;
+    margin: 62px auto;
+    /* position: relative; */
+    /* top: 5px; */
+}
+
+.right {
+    /* border: 3px solid transparent; */
+    position: absolute;
+    top: 49px;
+    right: 8px;
+    display: inline-block;
+}
+
+.right ul li {
+    list-style: none;
+    display: inline-block;
+    width: 40px;
+}
+
+#fb {
+    height: 20px;
+    width: 20px;
+}
+
+#insta {
+    height: 20px;
+    width: 20px;
+}
+
+#yt {
+    height: 20px;
+    width: 25px;
+}
+
+#google {
+    height: 20px;
+    width: 20px;
+}
+
+.navbar {
+    /* display: flex;
+    column-gap: 30px; */
+    list-style: none;
+}
+
+.navbar li {
+    display: inline-block;
+    color: whitesmoke;
+    font-size: 25px
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 34px 23px;
+
+}
+
+/* .navbar li a:hover{
+    color: red;
+} */
+.navbar li a:hover,
+.navbar li a::after {
+    text-decoration: underline;
+    color: grey;
+}
+
+/* body css starts */
+.container {
+    border: 3px solid whitesmoke;
+    margin: 56px 212px;
+    top: 160px;
+    width: 63%;
+    border-radius: 26px;
+    position: absolute;
+    padding: 30px 16px;
+    text-align: center;
+    font-family: 'Balthazar', serif;
+}
+.form-group input {
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    width: 345px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 12px auto;
+    border-radius: 5px;
+    font-family: 'Balthazar', serif;
+}
+.container button{
+    font-family: 'Balthazar', serif;
+    text-align: center;
+    width: 340px;
+    background-color: transparent;
+    color: aquamarine;
+    border: none;
+}
